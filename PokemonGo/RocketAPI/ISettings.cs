@@ -18,8 +18,6 @@ namespace PokemonGo.RocketAPI
         string GoogleRefreshToken { get; set; }
         string PtcPassword { get; }
         string PtcUsername { get; }
-        string Email { get;  }
-        string Password { get; }
         bool EvolveAllGivenPokemons { get; }
         string TransferType { get; }
         int TransferCPThreshold { get; }

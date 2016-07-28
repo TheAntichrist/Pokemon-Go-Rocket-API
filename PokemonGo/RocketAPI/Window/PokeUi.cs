@@ -259,7 +259,6 @@ namespace PokemonGo.RocketAPI.Window
             catch (ArgumentOutOfRangeException) { await transferPokemon(pokemon); }
             catch (ArgumentNullException) { await transferPokemon(pokemon); }
             catch (NullReferenceException) { await transferPokemon(pokemon); }
-            catch (Exception ex) { await transferPokemon(pokemon); }
         }
 
 		private async void btnUpgrade_Click(object sender, EventArgs e)
